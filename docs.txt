@@ -1,0 +1,18 @@
+Init {
+    arguments: [*password],
+    example: rubbit init testpass123
+}
+
+Add {
+    arguments: [*url, *password],
+    example: rubbit add https://rubbithub.com/test testpass123
+}
+
+
+TODO : 
+    - Config
+    - Server Config
+    - Check is config already have and ask user 
+    - commit
+    - pull
+    - push
